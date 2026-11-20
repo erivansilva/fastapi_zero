@@ -222,5 +222,5 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Generated using ignr.py - github.com/Antrikshy/ignr.py
-
+.gitignore
 token_git.txt
