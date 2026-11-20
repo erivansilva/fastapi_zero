@@ -10,3 +10,4 @@ def test_root_deve_retornar_ola_mundo():
     response = cliente.get('/')
     assert response.status_code == HTTPStatus.OK
     assert response.json() == {'message': 'Olá mundo'}
+    print(response)
